@@ -1,17 +1,24 @@
 .reference-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100vw;
   height: 600px;
   background-color: white;
   background: linear-gradient(to top, white 95%, transparent);
   padding-bottom: 10%;
 }
+.reference-title {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10%;
+}
 .reference-contents {
-  padding: 10%;
+  width: 70%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
 }
 .reference-title {
   text-decoration: underline;
@@ -21,7 +28,7 @@
   font-weight: 600;
   padding-bottom: 10%;
 }
-table {
+.reference-table {
   vertical-align: middle;
   background-color: white;
   width: 80%;
@@ -32,7 +39,7 @@ table {
 .reference-container_tr {
   width: 70%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .reference-container_td {
   width: 200px;
@@ -42,26 +49,4 @@ table {
   text-align: center;
   display: table-cell;
   vertical-align: inherit;
-}
-
-.another-article {
-  height: 600px;
-  width: 100%;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-h2,
-h5 {
-  text-align: center;
-  font-family: "Playfair Display", serif;
-}
-img {
-}
-.another-article-biggerp {
-  font-size: 25px;
-}
-.another-article-smallerp {
-  font-size: smaller;
 }

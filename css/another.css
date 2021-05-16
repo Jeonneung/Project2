@@ -1,0 +1,28 @@
+.another-article {
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.another-article-biggerp,
+.another-article-smallerp {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+img {
+}
+.another-article-biggerp {
+  font-size: 25px;
+  padding-top: 130px;
+}
+.another-article-smallerp {
+  font-size: smaller;
+}
+.another-article-img {
+  width: 250px;
+  height: 250px;
+}

@@ -18,11 +18,11 @@ nav {
 .navli {
   font-weight: 600;
   text-align: right;
+  padding-top: 8px;
 }
 .navhref {
   text-decoration: none;
   color: black;
-  padding-top: 8px;
 }
 .navimg {
   height: 40px;
