@@ -25,6 +25,24 @@ main {
   padding-bottom: 20%;
   z-index: 1;
 }
+
+.submagazine-main-content-index_table {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 35px;
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+.submagazine-main-content-index_table a {
+  height: 35px;
+  font-size: smaller;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-right: white 1px solid;
+  padding-right: 3px;
+}
+
 .submagazine-main-content {
   padding-top: 7%;
   background-color: white;

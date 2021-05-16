@@ -7,7 +7,7 @@ nav {
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.9);
 }
-ul {
+.navul {
   width: 50%;
   list-style: none;
   display: flex;
@@ -15,16 +15,16 @@ ul {
   align-items: center;
   float: right; /* list를 가로로 정렬하게 하는 속성*/
 }
-li {
+.navli {
   font-weight: 600;
   text-align: right;
 }
-a {
-  padding-right: 10%;
+.navhref {
   text-decoration: none;
   color: black;
+  padding-top: 8px;
 }
-img {
+.navimg {
   height: 40px;
   float: left;
   clear: right;

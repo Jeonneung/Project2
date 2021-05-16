@@ -1,9 +1,10 @@
 .reference-container {
   display: flex;
-  width: 100%;
-  height: 500px;
+  width: 100vw;
+  height: 600px;
   background-color: white;
   background: linear-gradient(to top, white 95%, transparent);
+  padding-bottom: 10%;
 }
 .reference-contents {
   padding: 10%;
@@ -28,12 +29,12 @@ table {
   margin: 0 auto;
   height: 20%;
 }
-tr {
+.reference-container_tr {
   width: 70%;
   display: flex;
   justify-content: center;
 }
-td {
+.reference-container_td {
   width: 200px;
   height: 200px;
   padding-left: 3%;
@@ -41,4 +42,26 @@ td {
   text-align: center;
   display: table-cell;
   vertical-align: inherit;
+}
+
+.another-article {
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+h2,
+h5 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+img {
+}
+.another-article-biggerp {
+  font-size: 25px;
+}
+.another-article-smallerp {
+  font-size: smaller;
 }
