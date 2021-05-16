@@ -1,0 +1,24 @@
+.submagazinebody {
+  background-image: url("picture/backgroundpaper.jpg");
+}
+main {
+  font-family: "Noto Serif KR", serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.submagazinetitle {
+  text-align: center;
+  font-weight: 700;
+}
+.submagazinenav {
+  margin-top: -30%;
+}
+main {
+  margin: 30% 10%;
+}
+span {
+  font-weight: 700;
+}

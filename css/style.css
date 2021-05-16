@@ -1,0 +1,11 @@
+@import "reset.css";
+@import "nav.css";
+@import "main.css";
+@import "sub.css";
+@import "bottom.css";
+@import "submagazine.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}

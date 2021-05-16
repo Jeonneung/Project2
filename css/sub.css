@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.sub {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.sub1 {
+  background-color: white;
+}
+.sub2 {
+  background-color: black;
+  color: white;
+}
+.sub3 {
+  background-color: white;
+}
+.sub4 {
+  background-color: black;
+  color: white;
+}
+.sub5 {
+  background-color: white;
+}
+.sub6 {
+  background-color: black;
+  color: white;
+}
