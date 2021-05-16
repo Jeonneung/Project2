@@ -3,6 +3,7 @@
   grid-template-columns: 50% 50%;
 }
 .sub {
+  padding-top: 15%;
   height: 500px;
   width: 100%;
   text-align: center;
@@ -28,4 +29,18 @@
 .sub6 {
   background-color: black;
   color: white;
+}
+h1 {
+  font-weight: 700;
+  padding-bottom: 3%;
+}
+h4 {
+  padding-bottom: 0.5%;
+}
+h3 {
+  font-weight: 600;
+  padding-bottom: 3%;
+}
+p {
+  padding-bottom: 0.1%;
 }

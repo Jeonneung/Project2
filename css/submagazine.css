@@ -1,5 +1,12 @@
-.submagazinebody {
+.submagazine-body {
   background-image: url("picture/backgroundpaper.jpg");
+}
+.submagazine-nav {
+  z-index: 5;
+}
+
+span {
+  font-weight: 700;
 }
 main {
   font-family: "Noto Serif KR", serif;
@@ -9,16 +16,30 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.submagazinetitle {
+.submagazine-main {
+  padding: 20%;
+}
+.submagazine-main-title {
   text-align: center;
   font-weight: 700;
+  padding-bottom: 20%;
+  z-index: 1;
 }
-.submagazinenav {
-  margin-top: -30%;
+.submagazine-main-content {
+  padding-top: 7%;
+  background-color: white;
+  z-index: 3;
+  padding: 5%;
 }
-main {
-  margin: 30% 10%;
+p {
+  padding: 10px 0;
+  line-height: normal;
 }
 span {
+  font-size: larger;
+}
+h1 {
+  font-size: 65px;
   font-weight: 700;
+  margin-bottom: 10%;
 }
