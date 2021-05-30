@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+ul {
+  text-align: left;
+  font-weight: bold;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.item {
+  padding: 5%;
+  color: black;
+}
+
+div {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .item {
+    display: inline-block;
+  }
+}

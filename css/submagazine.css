@@ -26,6 +26,13 @@ main {
   z-index: 1;
 }
 
+/*contentindex*/
+.content-index {
+  border-top: rgb(204, 204, 204) 1px solid;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+
 .submagazine-main-content-index_table {
   display: flex;
   justify-content: space-evenly;

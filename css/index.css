@@ -1,18 +1,32 @@
 .index-main {
-  height: 600px;
+  height: 700px;
+  width: 100%;
   text-align: center;
   padding: 15% 0 20%;
   font-family: "Playfair Display", serif;
 }
 
+@keyframes backgroundanimation {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 .main1 {
   background-color: white;
+  color: white;
+  text-decoration: underline;
+  background-image: url("../css/picture/1.jpg");
+  animation: backgroundanimation 1s;
 }
 .main2 {
   background-color: black;
   color: white;
 }
-.main2 {
+.main3 {
   background-color: white;
 }
 
@@ -28,4 +42,7 @@ h4 {
 }
 u {
   font-size: 10px;
+}
+u:hover {
+  background: url("");
 }

@@ -13,10 +13,7 @@
   padding-top: 10%;
 }
 .reference-contents {
-  width: 70%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  width: 100%;
   align-items: center;
 }
 .reference-title {
@@ -30,23 +27,20 @@
 .reference-table {
   vertical-align: middle;
   background-color: white;
-  width: 80%;
-  table-layout: fixed;
   margin: 0 auto;
-  height: 20%;
 }
 .reference-container_tr {
-  width: 70%;
-  display: flex;
-  justify-content: space-evenly;
+  width: 800px;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 .reference-container_td {
   width: 200px;
   height: 200px;
-  padding-left: 3%;
   background-color: grey;
   text-align: center;
   display: table-cell;
   vertical-align: inherit;
+  padding-left: 10%;
 }

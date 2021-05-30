@@ -19,6 +19,7 @@ nav {
   font-weight: 600;
   text-align: center;
   padding-top: 8px;
+  list-style: none;
 }
 .navli:hover {
   height: 100px;
@@ -37,6 +38,7 @@ nav {
 }
 .navhref_li {
   padding-top: 5px;
+  list-style: none;
 }
 .navhref_li_href {
   text-decoration: none;
