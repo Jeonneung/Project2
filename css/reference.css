@@ -38,9 +38,14 @@
 .reference-container_td {
   width: 200px;
   height: 200px;
-  background-color: grey;
+  background-color: white;
   text-align: center;
   display: table-cell;
   vertical-align: inherit;
-  padding-left: 10%;
+}
+
+.reference-container img {
+  width: 200px;
+  height: 200px;
+  border: rgba(194, 194, 194, 0.5) 2px solid;
 }
