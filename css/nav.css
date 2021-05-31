@@ -18,7 +18,7 @@ nav {
 .navli {
   font-weight: 600;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 11px;
   list-style: none;
 }
 .navli:hover {
@@ -39,16 +39,22 @@ nav {
 .navhref_li {
   padding-top: 5px;
   list-style: none;
+  font-weight: 200;
 }
 .navhref_li_href {
   text-decoration: none;
   color: black;
   opacity: 0;
 }
-.navhref_li_href:hover {
+
+.navli:hover > .navhref_ul > .navhref_li > .navhref_li_href {
   text-decoration: none;
   color: black;
   opacity: 1;
+  animation: defaultanimation 0.7s ease-in-out;
+}
+.navhref_li_href:hover {
+  color: rgba(236, 130, 153, 0.9);
 }
 .navimg {
   height: 40px;
