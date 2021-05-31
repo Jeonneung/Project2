@@ -1,12 +1,12 @@
 .index-main {
-  height: 700px;
+  height: 100%;
   width: 100%;
   text-align: center;
-  padding: 15% 0 20%;
+  padding: 20% 0 10%;
   font-family: "Playfair Display", serif;
 }
 
-@keyframes backgroundanimation {
+@keyframes defaultanimation {
   0% {
     opacity: 0%;
   }
@@ -16,18 +16,12 @@
 }
 
 .main1 {
-  background-color: white;
   color: white;
   text-decoration: underline;
-  background-image: url("../css/picture/1.jpg");
-  animation: backgroundanimation 1s;
-}
-.main2 {
-  background-color: black;
-  color: white;
-}
-.main3 {
+  text-shadow: black 1px 1px;
   background-color: white;
+  background-image: url("../css/picture/1.jpg");
+  animation: defaultanimation 1s;
 }
 
 h1 {
@@ -36,9 +30,11 @@ h1 {
   padding-bottom: 7px;
 }
 h4 {
+  color: white;
   font-weight: 500;
   font-size: 15px;
   padding-bottom: 15px;
+  text-decoration: underline;
 }
 u {
   font-size: 10px;

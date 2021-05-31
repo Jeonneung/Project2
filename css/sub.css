@@ -10,7 +10,7 @@
 }
 .sub1 {
   background-color: white;
-  background-image: url("../css/picture/sub1.jpg");
+  background-image: url("");
   animation: backgroundanimation 1s;
 }
 .sub2 {
@@ -44,4 +44,14 @@ h3 {
 }
 p {
   padding-bottom: 0.1%;
+}
+u > a,
+u {
+  font-size: small;
+  color: rgba(236, 130, 153, 0.9);
+}
+
+.bottom > h1 {
+  color: black;
+  text-decoration: none;
 }
