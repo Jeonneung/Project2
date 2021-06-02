@@ -49,3 +49,21 @@
   height: 200px;
   border: rgba(194, 194, 194, 0.5) 2px solid;
 }
+@keyframes bignsmall {
+  0% {
+    height: 200px;
+    width: 200px;
+  }
+  50% {
+    height: 300px;
+    width: 300px;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+  }
+}
+.reference-container_td > a > img:hover {
+  animation: bignsmall ease-in-out;
+  animation-iteration-count: infinite;
+}

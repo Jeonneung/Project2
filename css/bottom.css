@@ -1,5 +1,15 @@
 .bottom {
   height: 600px;
   text-align: center;
-  padding: 15% 0 20%;
+  padding: 15% 0;
+  padding-bottom: 30%;
+}
+.bottom:hover {
+  box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
+.bottom:hover > u > a {
+  color: rgba(233, 74, 108, 0.9);
+}
+.bottom:hover > u > a:hover {
+  color: rgba(172, 20, 53, 0.9);
 }

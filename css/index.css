@@ -6,22 +6,13 @@
   font-family: "Playfair Display", serif;
 }
 
-@keyframes defaultanimation {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-
 .main1 {
   color: white;
   text-decoration: underline;
   text-shadow: black 1px 1px;
   background-color: white;
   background-image: url("../css/picture/1.jpg");
-  animation: defaultanimation 1s;
+  animation: defaultanimation 1.3s ease-in-out;
 }
 
 h1 {

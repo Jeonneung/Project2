@@ -50,6 +50,10 @@ main {
   padding-right: 3px;
 }
 
+.submagazine-main-content-index_table a:hover {
+  color: rgba(236, 130, 153, 0.9);
+}
+
 .submagazine-main-content {
   padding-top: 7%;
   background-color: white;
@@ -61,7 +65,11 @@ p {
   line-height: normal;
 }
 span {
+  font-size: large;
+}
+span:hover {
   font-size: larger;
+  color: rgba(236, 130, 153, 0.9);
 }
 h1 {
   font-size: 65px;
