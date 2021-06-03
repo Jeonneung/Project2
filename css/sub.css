@@ -53,7 +53,7 @@ h3 {
   font-weight: 550;
   padding-bottom: 3%;
 }
-p {
+sub > p {
   padding-bottom: 0.1%;
   font-weight: 600;
 }
