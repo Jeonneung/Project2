@@ -21,6 +21,7 @@
 }
 .sub3 {
   background-color: white;
+  background-image: url("picture/sub-오유진1.jpg");
 }
 .sub4 {
   background-color: white;
@@ -34,6 +35,10 @@
 }
 .sub6 {
   background-color: black;
+  color: black;
+  background-image: url("picture/sub-오유진2.jpg");
+}
+.sub6 > p {
   color: white;
 }
 h1 {
@@ -50,6 +55,7 @@ h3 {
 }
 p {
   padding-bottom: 0.1%;
+  font-weight: 600;
 }
 u > a,
 u {
